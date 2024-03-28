@@ -1,5 +1,6 @@
 
 import './App.css';
+import LightDarkMode from './components/Light-dark-mode';
 import LoadMoreData from './components/Load-more-data';
 import Accordian from './components/accordian';
 import ImageSlider from './components/image-slider';
@@ -18,7 +19,8 @@ function App() {
       {/* <ImageSlider limit={'5'}/> */}
       {/* <LoadMoreData /> */}
       {/* <TreeView  menus={menus}/> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+      <LightDarkMode />
     </div>
   );
 }
